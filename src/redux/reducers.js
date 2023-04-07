@@ -14,7 +14,6 @@ const cars = (state = [], action) => {
     default:
       return state;
   }
-  //   return state;
 };
 
 export default combineReducers({ user, cars });
